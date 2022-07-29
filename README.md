@@ -1,6 +1,6 @@
 # noa-template
 
-A template built on the [noa voxel engine](https://github.com/fenomas/noa).
+A template built on the noa voxel engine, check it out [here](https://github.com/fenomas/noa).
 
 This demo is forked from [noa example worlds](https://github.com/fenomas/noa-examples) hello-world/test, the intended purpose is to have a quick setup for new projects with the `noa` engine.
 
