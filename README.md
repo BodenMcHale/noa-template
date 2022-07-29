@@ -20,9 +20,11 @@ Please report any bugs or suggestions.
 
 ```sh
 gh repo clone BodenMcHale/noa-template
-cd main
-npm install
 
+cd noa-template
+cd main
+
+npm install
 npm run build:prod    # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode production
 npm run build:dev     # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode development
 npm run start         # hosts ./src/index.js as a webpack-dev-server on localhost:8080 using --mode development
@@ -37,7 +39,6 @@ There's also a `build:dev` to generate a commented `index_bundle.js` into the `.
 ### Controls:
  * `Left Mouse Button`: remove blocks
  * `Right Mouse Buttom` / `E`: place blocks
- * `P`: pause/unpause
  * `Mouse Wheel`: zoom camera in and out
  
  ## Webpack
