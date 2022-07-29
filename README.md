@@ -1,11 +1,10 @@
 # noa-template
 
-One example world built on the [noa voxel engine](https://github.com/fenomas/noa). The easiest way to get started with `noa` is to clone this repo and edit this demo.
+One example world built on the [noa voxel engine](https://github.com/fenomas/noa). An easy way to get started with `noa` is to use this repo and play with the demo.
 
 This demo is forked from the two [noa example worlds](https://github.com/fenomas/noa-examples).
 
 Please report any bugs or suggestions.
-
 
 ----
 
@@ -31,7 +30,7 @@ To build I recommend `build:prod`, this will generate a `index_bundle.js` design
 
 There's also a `build:dev` to generate a commented `index_bundle.js` into the `dist` directory.
 
-### Controls in the demo:
+### Controls:
  * `LMB`: break blocks
  * `RMB`/`R`: make blocks (pick block type with `MMB`/`Q`)
  * `I`: invert mouse
@@ -81,7 +80,7 @@ This will delete files needed for webpack-dev-server to run, to use the webpack-
 
 The `noa` engine is under active development, this example pulls in the release '^0.32.0'.
 
-#### To change `noa` version to development branch:
+#### Change version to development branch:
 1. Open `./main/package.js`
 2. Change line 21 from `"^0.32.0"` to `"github:fenomas/noa#develop"`
 ```js
