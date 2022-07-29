@@ -6,8 +6,6 @@ This demo is forked from the two [noa example worlds](https://github.com/fenomas
 
 Please report any bugs or suggestions.
 
-----
-
 ## Usage
 
 **Note:** those using React may want to refer to [@MCArth/noa-cra-example](https://github.com/MCArth/noa-cra-example), which is a ported noa example built with `create-react-app`.
@@ -68,8 +66,6 @@ This will delete files needed for webpack-dev-server to run, to use the webpack-
 27:    // open: true
 ```
 
-----
-
 ## Dependencies
 
 ### Babylon dependency:
@@ -88,8 +84,6 @@ The `noa` engine is under active development, this example pulls in the release 
 
 21:    "noa-engine": "github:fenomas/noa#develop",
 ```
-
-----
 
 ## Credits
 
