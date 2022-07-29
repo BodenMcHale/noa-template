@@ -1,13 +1,6 @@
-# VoxGeo
-
-
 # noa-examples
 
-Two small example worlds built on the [noa](https://github.com/fenomas/noa) voxel engine. The easiest way to get started with `noa` is to clone this repo and hack on these demos.
-
-Live demos:
- * [hello-world](https://fenomas.github.io/noa-examples/hello-world/) - a bare minimum world, suitable for building on top of
- * [test](https://fenomas.github.io/noa-examples/test/) - a testbed world that minimally implements most engine features
+Two small example worlds built on the [noa](https://github.com/fenomas/noa) voxel engine. The easiest way to get started with `noa` is to clone this repo and hack on this demo.
 
 Interactions in the "Test" demo:
  * `LMB`: break blocks
@@ -29,8 +22,9 @@ To build and serve the examples locally:
 (clone this repo)
 cd noa-examples
 npm install
-npm start     # runs /src/hello-world
-npm test      # runs /src/test
+npm run start     # runs ./src/index.js as a webpack-dev-server
+npm run build:dev # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode development
+npm run build:prod # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode production
 ```
 
 The `start` and `test` scripts serve each world via `webpack-dev-server`, so you should be able to find them at `localhost:8080` or thereabouts.
