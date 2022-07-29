@@ -38,7 +38,7 @@ module.exports = {
   },
 
   plugins: [
-      new CleanWebpackPlugin(),  // Turning this on will remove files before the DevServer can access them, only use for builds
+      // new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         template: './src/index.html',
         filename: 'new_index.html'

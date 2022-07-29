@@ -1,10 +1,15 @@
 {
-    "name": "voxgeo",
-    "version": "0.0.0",
-    "description": "A terrain simulation",
+    "name": "noa-template",
+    "version": "0.1.0",
+    "description": "A hello-world starter example of noa",
 
     "author": "Boden McHale",
-    "license": "MIT",
+    "license": "ISC",
+    
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BodenMcHale/noa-template.git"
+    },
 
     "scripts": {
         "start": "webpack-dev-server --mode development",
