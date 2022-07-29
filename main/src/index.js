@@ -67,10 +67,17 @@ const grassID = noa.registry.registerBlock(2, { material: 'grass' })
 
 // simple height map worldgen function
 function getVoxelID (x, y, z) {
-  if (y < -3) return dirtID
+  if (y < -3) {
+    return dirtID
+  }
+
   const height = 2 * Math.sin(x / 10) + 3 * Math.cos(z / 20)
-  if (y < height) return grassID
-  return 0 // signifying empty space
+
+  if (y < height) {
+    return grassID
+  }
+
+  return 0 // Return Air
 }
 
 // register for world events
@@ -86,6 +93,7 @@ noa.world.on('worldDataNeeded', function (id, data, x, y, z) {
       }
     }
   }
+
   // tell noa the chunk's terrain data is now set
   noa.world.setChunkData(id, data)
 })
@@ -146,9 +154,16 @@ noa.inputs.bind('alt-fire', 'E')
 // each tick, consume any scroll events and use them to zoom camera
 noa.on('tick', function (dt) {
   const scroll = noa.inputs.state.scrolly
+
   if (scroll !== 0) {
     noa.camera.zoomDistance += (scroll > 0) ? 1 : -1
-    if (noa.camera.zoomDistance < 0) noa.camera.zoomDistance = 0
-    if (noa.camera.zoomDistance > 10) noa.camera.zoomDistance = 10
+
+    if (noa.camera.zoomDistance < 0) {
+      noa.camera.zoomDistance = 0
+    }
+
+    if (noa.camera.zoomDistance > 100) {
+      noa.camera.zoomDistance = 100
+    }
   }
 })
