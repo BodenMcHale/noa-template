@@ -94,4 +94,4 @@ For more information on the releases, please read the [history.md](https://githu
 
 Made by [@fenomas](https://fenomas.com), license is [ISC](https://choosealicense.com/licenses/isc/).
 
-This template is maintained by [@BodenMcHale](https://github.com/BodenMcHale).
+This template is maintained by [@BodenMcHale](https://twitter.com/Boden_McHale).
