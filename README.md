@@ -12,10 +12,11 @@ Please report any bugs or suggestions.
 
 ### Build and host this demo locally:
 1. Clone this repo with `gh repo clone BodenMcHale/noa-template`
-2. Navigate to `./main/` with `cd main`
-3. Install the dependencies with `npm install`
-4. Build `index.js` with `npm run build:prod`
-5. Open `new-inex.js` with `open dist/new-index.html`
+3. Navigate to `./noa-template/` with `cd noa-template`
+3. Navigate to `./main/` with `cd main`
+4. Install the dependencies with `npm install`
+5. Build `index.js` with `npm run build:prod`
+6. Open `new-inex.js` with `open dist/new-index.html`
 
 ```sh
 gh repo clone BodenMcHale/noa-template
