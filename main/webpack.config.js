@@ -8,7 +8,7 @@ module.exports = {
   // Output for the JavaScript bundle
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index_bundle.js',
+    filename: 'index-bundle.js',
   },
 
   // Change the default size warnings
@@ -38,10 +38,13 @@ module.exports = {
   },
 
   plugins: [
+      // This will automatically delete old unused files in ./main/dist/ 
       // new CleanWebpackPlugin(),
+
+      // Creates a new html file in ./main/dist/new-index.htnl using a template html ./main/src/index.html
       new HtmlWebpackPlugin({
         template: './src/index.html',
-        filename: 'new_index.html'
+        filename: 'new-index.html'
       })
   ],
 };
