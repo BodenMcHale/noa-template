@@ -2,7 +2,7 @@
 
 A template built on the [noa voxel engine](https://github.com/fenomas/noa).
 
-This demo is forked from [noa example worlds](https://github.com/fenomas/noa-examples) hello-world, the intended purpose is to have a quick setup for new projects with the `noa` engine.
+This demo is forked from [noa example worlds](https://github.com/fenomas/noa-examples) hello-world/test, the intended purpose is to have a quick setup for new projects with the `noa` engine.
 
 Please report any bugs or suggestions.
 
@@ -11,13 +11,14 @@ Please report any bugs or suggestions.
 **Note:** those using React may want to refer to [@MCArth/noa-cra-example](https://github.com/MCArth/noa-cra-example), which is a ported noa example built with `create-react-app`.
 
 ### Build and host this demo locally:
-1. Clone this repo
-2. Navigate to ./main/
-3. Type `npm install`
-4. Type `npm run build:prod`
-5. Type `open ./dist/new-index.html`
+1. Clone this repo with `gh repo clone BodenMcHale/noa-template`
+2. Navigate to `./main/` with `cd main`
+3. Install the dependencies with `npm install`
+4. Build `index.js` with `npm run build:prod`
+5. Open `new-inex.js` with `open dist/new-index.html`
 
 ```sh
+gh repo clone BodenMcHale/noa-template
 cd main
 npm install
 
@@ -74,7 +75,7 @@ This will delete files needed for webpack-dev-server to run, to use the webpack-
 
 ### Noa dependency:
 
-The `noa` engine is under active development, this example pulls in the release '^0.32.0'.
+The `noa` engine is under active development, this example pulls in the release `"^0.32.0"`.
 
 For more information on the releases, please read the [history.md](https://github.com/fenomas/noa/blob/master/docs/history.md)
 
