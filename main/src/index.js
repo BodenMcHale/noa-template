@@ -1,34 +1,33 @@
-
-
 /* 
  * 
- *          noa hello-world example
+ *  noa hello-world template
  * 
- *  This is a bare-minimum example world, intended to be a 
- *  starting point for hacking on noa game world content.
+ *  This is a bare-minimum example world, intended to be a starting point for editing the demo.
  * 
 */
 
+// Import engine
+import { Engine } from "noa-engine";
 
-
-// Engine options object, and engine instantiation:
-import { Engine } from 'noa-engine'
-
-// or import from local filesystem when hacking locally:
-// import { Engine } from '../../../noa'
-
-
-var opts = {
+// Set up engine 
+let noa = new Engine({
     debug: true,
     showFPS: true,
+
     chunkSize: 32,
     chunkAddDistance: 2.5,
     chunkRemoveDistance: 3.5,
-    // See `test` example, or noa docs/source, for more options
-}
-var noa = new Engine(opts)
+    chunkSize: 32,
 
-
+    inverseY: false,
+    inverseX: false,
+    blockTestDistance: 50,
+    playerAutoStep: true,
+    
+    useAO: true,
+    AOmultipliers: [0.92, 0.8, 0.5],
+    reverseAOmultiplier: 1.0,
+})
 
 /*
  *

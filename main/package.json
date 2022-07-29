@@ -1,7 +1,7 @@
 {
     "name": "noa-template",
     "version": "0.1.0",
-    "description": "A hello-world starter example of noa",
+    "description": "A hello-world starter template of the noa engine made by Andy Hall",
 
     "author": "Boden McHale",
     "license": "ISC",
@@ -23,7 +23,6 @@
     },
 
     "devDependencies": {
-        "clean-webpack-plugin": "^4.0.0",
         "html-webpack-plugin": "^5.5.0",
         "webpack": "^5.64.3",
         "webpack-cli": "^4.10.0",
