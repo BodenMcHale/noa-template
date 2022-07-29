@@ -1,8 +1,8 @@
 # noa-template
 
-One example world built on the [noa voxel engine](https://github.com/fenomas/noa). An easy way to get started with `noa` is to use this repo and play with the demo.
+A template built on the [noa voxel engine](https://github.com/fenomas/noa).
 
-This demo is forked from the two [noa example worlds](https://github.com/fenomas/noa-examples).
+This demo is forked from [noa example worlds](https://github.com/fenomas/noa-examples) hello-world, the intended purpose is to have a quick setup for new projects with the `noa` engine.
 
 Please report any bugs or suggestions.
 
@@ -33,14 +33,10 @@ To build I recommend `build:prod`, this will generate a `index_bundle.js` design
 There's also a `build:dev` to generate a commented `index_bundle.js` into the `./main/dist` directory.
 
 ### Controls:
- * `LMB`: break blocks
- * `RMB`/`R`: make blocks (pick block type with `MMB`/`Q`)
- * `I`: invert mouse
+ * `Left Mouse Button`: remove blocks
+ * `Right Mouse Buttom` / `E`: place blocks
  * `P`: pause/unpause
- * `1`: shoot a physics projectile
- * `3`: toggle timescale (between `1`, `0.1`, `2`)
- * `O`: swap between two sets of world data
- * `mousewheel`: zoom camera in and out
+ * `Mouse Wheel`: zoom camera in and out
  
  ## Webpack
 
