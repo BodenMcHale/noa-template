@@ -26,8 +26,6 @@ cd main
 
 npm install
 npm run build:prod    # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode production
-npm run build:dev     # builds ./src/index.js and bundles it to ./dist/index_bundle.js using --mode development
-npm run start         # hosts ./src/index.js as a webpack-dev-server on localhost:8080 using --mode development
 ```
 
 The `start` script hosts the demo via `webpack-dev-server` using the files in `/main/dist`, you should be automatically taken to the demo. If this doesn't happen then you can access it by entering `localhost:8080` into a browser.
