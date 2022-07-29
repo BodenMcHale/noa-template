@@ -45,7 +45,7 @@ There's also a `build:dev` to generate a commented `index_bundle.js` into `/main
 
 ### Enable CleanWebpackPlugin() for webpack:
 1. Open `/main/webpack.config.js`
-2. Remove the comment from the line 41
+2. Remove the comment from the line 42
 
 ```js
 42:    // new CleanWebpackPlugin()
